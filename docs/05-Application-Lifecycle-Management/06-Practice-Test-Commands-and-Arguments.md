@@ -55,5 +55,11 @@ Solutions to practice test - commands and arguments
   </details>
   
 - Answer file located at /var/answers/answer-webapp-color-green.yaml
+  <details>
+  
+  ```
+  kubectl run webapp-green --image kodekloud/webapp-color -- --color=green 
+  ```
+  </details>
 
 
